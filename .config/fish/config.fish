@@ -34,6 +34,10 @@ function gp
     git push $argv
 end
 
+function gch
+    git checkout $argv
+end
+
 function cs
     cygstart $argv
 end

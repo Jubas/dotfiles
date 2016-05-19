@@ -122,6 +122,7 @@ alias ga='git add'
 alias gc='git commit'
 alias gl='git pull'
 alias gp='git push'
+alias gch='git checkout'
 
 alias cs='cygstart'
 
