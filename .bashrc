@@ -124,7 +124,7 @@ alias gl='git pull'
 alias gp='git push'
 alias gch='git checkout'
 
-alias cs='cygstart'
+alias devfolder='cd /mnt/d/Dev/WBash'
 
 # Umask
 #

@@ -1,3 +1,4 @@
+
 function tmux
     command rm -rf /tmp/tmux* AND tmux $argv
 end
@@ -12,6 +13,10 @@ end
 
 function vdir
     command ls --color=auto --format=long
+end
+
+function devfolder
+    cd /mnt/d/Dev/WBash
 end
 
 function gs
@@ -38,7 +43,3 @@ function gch
     git checkout $argv
 end
 
-function cs
-    cygstart $argv
-end
-    
