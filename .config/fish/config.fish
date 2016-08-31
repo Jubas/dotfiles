@@ -15,6 +15,42 @@ function vdir
     command ls --color=auto --format=long
 end
 
+function c
+    clear
+end
+
+function cd..
+    cd ..
+end
+
+function ..
+    cd ..
+end
+
+function ...
+    cd ../../../
+end
+
+function grep
+    grep --color=auto
+end
+
+function egrep 
+    egrep --color=auto
+end
+
+function fgrep
+   fgrep --color=auto
+end
+
+function bc
+   bc -l
+end
+
+function diff
+   colordiff
+end
+
 function devfolder
     cd /mnt/d/Dev/WBash
 end

@@ -117,6 +117,7 @@ alias vdir='ls --color=auto --format=long'
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
 
+# git aliases
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
@@ -124,7 +125,27 @@ alias gl='git pull'
 alias gp='git push'
 alias gch='git checkout'
 
+# devfolder shortcut
 alias devfolder='cd /mnt/d/Dev/WBash'
+
+# clear alias
+alias c='clear'
+
+# cd aliases
+alias cd.. ="cd .."
+alias .. ='cd ..'
+alias ... ='cd ../../../'
+
+# grep alias color
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# calc
+alias bc='bc -l'
+
+# colored diff
+alias diff='colordiff'
 
 # Umask
 #
