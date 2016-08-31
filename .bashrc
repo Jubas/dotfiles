@@ -131,6 +131,11 @@ alias devfolder='cd /mnt/d/Dev/WBash'
 # clear alias
 alias c='clear'
 
+# cd aliases
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+
 # grep alias color
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
