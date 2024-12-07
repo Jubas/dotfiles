@@ -124,9 +124,10 @@ alias gc='git commit'
 alias gl='git pull'
 alias gp='git push'
 alias gch='git checkout'
+alias gdf='git diff'`
 
 # devfolder shortcut
-alias devfolder='cd /mnt/d/Dev/WBash'
+alias repos='cd ~/repos/'
 
 # clear alias
 alias c='clear'
@@ -229,3 +230,5 @@ alias diff='colordiff'
 # }
 # 
 # alias cd=cd_func
+alias exp="explorer.exe ."
+alias winrepos='cd "/mnt/c/Users/Anders Munck/source/repos"'
